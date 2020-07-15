@@ -11,9 +11,9 @@
                 <div class="sidebar">
                     <img src="/vectormine.png" alt="profile" class="logo">
                     <ul class="sidebar-nav">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT ME</a></li>
-                    <li class= "contact"><a href="#">CONTACT ME</a></li>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="aboutme.html">ABOUT ME</a></li>
+                    <li class= "contact">CONTACT ME</li>
                     </ul>
                     <a href="https://github.com/DevanshBajaj"><ion-icon name="logo-github"></ion-icon></a> 
                     <a href="https://www.instagram.com/devanshbajaj"><ion-icon name="logo-instagram"></ion-icon></a> 
@@ -23,10 +23,9 @@
             </div>
             <div class="col span_1_of_4">
                 <h1>HI, I'm <div class="text2">Devansh Bajaj.</div></h1>
-                <img  class="hi" src="/hello.svg" width="200" />
             </div>
-            <div class="col span_1_of_4">
-                <h2 class="text3">TECH<div id="text-3-cl">STACK</div></h2>
+            <div class="col span_3_of_4">
+                <h2 class="text3">Tech<div class="text2">Stack</div></h2>
                 <code class="icons">
                     <img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png">&nbsp;&nbsp;
                     
@@ -40,21 +39,30 @@
                 
                     <img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></>&nbsp;&nbsp;
                 </code>
-                    <img  class="tech" src="/tech.svg" width="200" />
                 
             </div>
             </div>
         </div>
-            
-            
-        <button class="darkbtn" onclick="myFunction()">Toggle dark mode</button>
 
     </body>
-    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.6/lib/darkmode-js.min.js"></script>
     <script>
-        function myFunction() {
-           var element = document.body;
-           element.classList.toggle("dark-mode");
+        var options = {
+            bottom: '64px', // default: '32px'
+            right: '32px', // default: '32px'
+            left: 'unset', // default: 'unset'
+            time: '0.5s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: '#fff',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: false, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
         }
-        </script>
+
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+    </script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 </html>
