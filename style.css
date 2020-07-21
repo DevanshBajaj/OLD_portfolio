@@ -17,7 +17,7 @@ html {
 }
 
 /* Dark Mode styles */
-body.dark-theme {
+.dark-theme {
   color: #eee;
   background: #121212;
 }
@@ -383,12 +383,10 @@ a.sidebar-nav-item:focus {
   margin-left: 20px;
 }
 
-body.dark-theme .notes{
-
-  background-color: #121212;
-
+.dark-theme .notes{
+  background-color: #212121;
 }
-body.dark-theme p {
+.dark-theme p {
   margin-left: 20px;
 }
 
@@ -400,21 +398,50 @@ body.dark-theme p {
   color: #d81b60;
 }
 
-.btn-toggle {
+.toggle {
   position: absolute;
-  bottom: auto;
-  margin: auto;
-  margin-top: 10px;
-  right: 2%;
-  font-size: 26px;
-  background: #121212;
-  width: 40px;
-  height: 40px;
-  border-radius: 40px;
-  border: none;
+  cursor: pointer;
+  top: 20px;
+  right: 25px;
+  font-size: 150%;
 }
 
-.btn-toggle.focus, .btn-toggle:focus {
-  outline: 0;
-  box-shadow: none!important;
+.toggle:before {
+  content: '☀️';
+}
+
+.toggle.active:before {
+  content: '🌒';
+}
+
+.toggle.animate {
+  animation: animate .3s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+@keyframes animate {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(0); }
+  100% { transform: scale(1); }
+}
+
+.wave {
+  position: absolute;
+  top: 35px;
+  right: 40px;
+  border-radius: 100%;
+  width: 2px;
+  height: 2px;
+  display: block;
+  z-index: -1;
+  box-shadow: 0 0 0 0 #212121;
+  transition: box-shadow .3s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.wave.active {
+  background: #212121;
+  box-shadow: 0 0 0 9999px #212121;
+}
+
+.wrapper {
+  transition: all .3s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
