@@ -375,7 +375,7 @@ a.sidebar-nav-item:focus {
 
 .notes{
   margin: 20px;
-  background-color: #fff;
+  background-color:none;
   border-left: 6px solid #d81b60;
   max-width: 400px;
 }
@@ -386,9 +386,7 @@ a.sidebar-nav-item:focus {
 .dark-theme .notes{
   background-color: #212121;
 }
-.dark-theme p {
-  margin-left: 20px;
-}
+
 
 
 .project {
