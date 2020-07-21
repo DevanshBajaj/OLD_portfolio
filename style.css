@@ -402,6 +402,7 @@ a.sidebar-nav-item:focus {
   cursor: pointer;
   right: 25px;
   font-size: 150%;
+  
 }
 @media screen and (max-width: 700px) {
   .toggle{
@@ -413,10 +414,20 @@ a.sidebar-nav-item:focus {
 
 .toggle:before {
   content: '☀️';
+  font-size: 32px;
+  background-color: #212121;
+  width: 32px;
+  height: 34px;
+  border-radius: 60px;
 }
 
 .toggle.active:before {
   content: '🌒';
+  font-size: 32px;
+  background-color: #fff;
+  width: 32px;
+  height: 32px;
+  border-radius: 60px;
 }
 
 .toggle.animate {
