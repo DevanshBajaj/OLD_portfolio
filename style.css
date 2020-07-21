@@ -206,10 +206,10 @@ a.sidebar-nav-item:focus {
 .section3 p {
   padding-left: 0.5px;
   margin-top: 30px;
-  font-size: 1.50em;
+  font-size: 1.80em;
   font-weight: 500;
   line-height: 1.25;
-  letter-spacing: -.03em;
+  letter-spacing: .04em;
   max-width: 25em;
 }
 
@@ -219,7 +219,7 @@ a.sidebar-nav-item:focus {
     font-size: 1.40em;
     font-weight: 500;
     line-height: 1.25;
-    letter-spacing: -.03em;
+    letter-spacing: .03em;
     max-width: 25em;
 }
 
@@ -230,6 +230,9 @@ a.sidebar-nav-item:focus {
   font-weight: 500;
   line-height: 1.25;
   max-width: 25em;
+}
+.section6 a {
+  font-size: 20px;
 }
 
 
@@ -304,8 +307,8 @@ a.sidebar-nav-item:focus {
 }
 
 .coffee {
-  width: 86%;
-  height: 86%;
+  width: 80%;
+  height: 80%;
   position: relative;
   top: 7%;
   left: 7%;
@@ -316,7 +319,7 @@ a.sidebar-nav-item:focus {
 
 .froth {
   width: 76%;
-  height: 76%;
+  height: 80%;
   position: relative;
   top: -74.2%;
   left: 12%;
