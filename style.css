@@ -400,10 +400,17 @@ a.sidebar-nav-item:focus {
 
 .toggle {
   position: absolute;
+  bottom: auto;
   cursor: pointer;
-  top: 20px;
   right: 25px;
   font-size: 150%;
+}
+@media screen and (max-width: 700px) {
+  .toggle{
+    position: absolute;
+    bottom: auto;
+    cursor: pointer;
+  }
 }
 
 .toggle:before {
