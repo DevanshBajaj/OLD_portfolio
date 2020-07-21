@@ -54,6 +54,7 @@ section {
   font-weight: 600;
 }
 .text2 {
+  display: inline;
   color: #d81b60;
 }
 
@@ -90,6 +91,7 @@ h3 {
     bottom: 0;
     width: 20rem;
     text-align: center;
+    padding: 4rem 2rem;
   }
 }
 
@@ -196,19 +198,40 @@ a.sidebar-nav-item:focus {
   max-width: 25em;
   letter-spacing: .04em;
 }
+.section2 a {
+  text-decoration: none;
+  color: #d81b60;
+}
 
 .section3 p {
+  padding-left: 0.5px;
   margin-top: 30px;
-  font-size: 1.40em;
-  font-weight: 400;
+  font-size: 1.50em;
+  font-weight: 500;
   line-height: 1.25;
   letter-spacing: -.03em;
   max-width: 25em;
 }
 
-.section5 {
-  margin-top: 80px;
+.section5 p {
+    padding-left: 0.5px;
+    margin-top: 30px;
+    font-size: 1.40em;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -.03em;
+    max-width: 25em;
 }
+
+.section6 p {
+  padding-left: 0.5px;
+  margin-top: 30px;
+  font-size: 1.40em;
+  font-weight: 500;
+  line-height: 1.25;
+  max-width: 25em;
+}
+
 
 .section4 {
   margin-top: 80px;
@@ -341,7 +364,20 @@ a.sidebar-nav-item:focus {
   }
 }
 
-.darkmode-toggle {
-  position: absolute;
-  bottom: auto;
+.notes{
+  margin: 20px;
+  background-color: #fff;
+  border-left: 6px solid #d81b60;
+  max-width: 400px;
 }
+.notes p {
+  margin-left: 20px;
+}
+
+.project {
+  margin-left: 20px;
+  list-style: none;
+  text-decoration: none;
+  color: #d81b60;
+}
+
