@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="description" content="My personal portfolio">
+        <!-- Enable responsiveness on mobile devices-->
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href="/profile.jpg" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
+        <title>Devansh Bajaj</title>
+    </head>
+    <body>
+        <!-- The sidebar -->
+        <aside class="sidebar">
+            <div class="container sidebar-sticky">
+              <div class="sidebar-about">
+                <h1>My Portfolio</h1>
+                <img src="/profile.jpg" alt="profile" class="logo">
+              </div>
+              <ul class="sidebar-nav">
+                <a href="/index.html"><li>HOME</li></br></a>
+                <a href="#uses"><li>Uses</li></br></a>
+                <a href="https://github.com/DevanshBajaj" target="_blank"><ion-icon name="logo-github"></ion-icon></a> 
+                <a href="https://www.instagram.com/devanshbajaj" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a> 
+                <a href="https://twitter.com/devansh21db" target="_blank"><ion-icon name="logo-twitter"></ion-icon></ion-icon></a> 
+                <a href="https://www.linkedin.com/in/devansh21db" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a> 
+              </ul>
+            </div>
+          </aside>
+  
+        <!-- Page content -->
+        <div class="content">
+            <span class="toggle"></span>
+            <span class="wave"></span>
+            <div class="wrapper">
+              <div class="section8" id="uses">
+                <h2 class="text1">Uses <div class="text2">.</div></h2>
+                <div class="highlight-title">Coding Software</div>
+                  <div class="notes">
+                    <div class="highlight-subtitle">
+                      <a href="" target="_blank">Visual Studio Code</a>
+                      <p>Favourite text editor</p>
+                      <a href="" target="_blank">IntelliJ IDEA</a>
+                      <p>IDE(using it for Kotlin)</p>
+                      <a href="" target="_blank">Google Chrome</a>
+                      <p>well, dev tools :)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="highlight-title">Hardware/Gear</div>
+                <div class="notes">
+                  <div class="highlight-subtitle">
+                    <a href="" target="_blank">PC</a></br>
+                    <p>Ryzen 3600 | GTX1660s</br>16gb ram | Nvme SSD </p>
+                    <a href="" target="_blank">ROG Laptop</a></br>
+                    <p>ps:Never buy gaming laptop </p>
+                    <a href="" target="_blank">LG IPS Monitor</a></br>
+                    <p>Pretty Good</p> 
+                  </div>
+              </div>
+            </div>
+        </div>
+
+    </body>
+    <script>
+      document.querySelector('.toggle').addEventListener('click', function() {
+          this.classList.add('animate');
+          setTimeout(() => {
+              this.classList.toggle('active');
+              document.querySelector('.wave').classList.toggle('active');
+              document.documentElement.classList.toggle('dark-theme');
+          }, 150);
+
+          setTimeout(() => this.classList.remove('animate'), 300);
+      });
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+</html>
