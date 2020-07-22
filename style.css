@@ -400,7 +400,8 @@ a.sidebar-nav-item:focus {
   position: absolute;
   bottom: auto;
   cursor: pointer;
-  right: 25px;
+  margin-top: 10px;
+  right: 10px;
   font-size: 150%;
   
 }
@@ -413,21 +414,11 @@ a.sidebar-nav-item:focus {
 }
 
 .toggle:before {
-  content: '☀️';
-  font-size: 32px;
-  background-color: #212121;
-  width: 32px;
-  height: 34px;
-  border-radius: 60px;
+  content: url(/moon.svg);
 }
 
 .toggle.active:before {
-  content: '🌒';
-  font-size: 32px;
-  background-color: #fff;
-  width: 32px;
-  height: 32px;
-  border-radius: 60px;
+  content: url(/sun.svg);
 }
 
 .toggle.animate {
