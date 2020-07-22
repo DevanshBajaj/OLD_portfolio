@@ -87,7 +87,7 @@ h3 {
   text-align: center;
   padding: 4rem 2rem;
   color: rgba(255,255,255,.5);
-  background-color: #202020;
+  background-color: #1e1e20;
   position: static;
 }
 @media (min-width: 48em) {
