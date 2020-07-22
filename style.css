@@ -88,6 +88,7 @@ h3 {
   padding: 4rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
+  position: fixed;
 }
 @media (min-width: 48em) {
   .sidebar {
