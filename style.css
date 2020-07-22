@@ -85,10 +85,10 @@ h3 {
 /* The side navigation menu */
 .sidebar {
   text-align: center;
-  padding: 4rem 1rem;
+  padding: 4rem 2rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
-  position: fixed;
+  position: static;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -99,6 +99,7 @@ h3 {
     width: 20rem;
     text-align: center;
     padding: 4px 2rem;
+    margin: 0%;
   }
 }
 
