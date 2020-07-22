@@ -32,7 +32,7 @@ html {
 } 
 @media screen and (max-width: 700px) {
   .logo {
-    height: 150px;
+    height: 120px;
     width: auto;
     float: center;
     border-radius: 50%;
