@@ -466,7 +466,7 @@ a.sidebar-nav-item:focus {
   margin-left: 20px;
   align-items: center;
   font-size: 150%;
-  font-weight: 400;
+  font-weight: 500;
   color: #d81b60;
   text-decoration: none;
 }
@@ -476,12 +476,43 @@ a.sidebar-nav-item:focus {
   margin-bottom: 10px;
   margin-left: 20px;
   align-items: center;
-  font-size: 100%;
+  font-size: 120%;
   font-weight: 400;
 }
-
+.section8 {
+  margin-bottom: 40px;
+}
 .section8 p {
   line-height: 1.25;
   letter-spacing: .04em;
   max-width: 25em;
+}
+
+.light-title {
+  padding-top: 2rem;
+  align-items: center;
+  margin-left: 0px;
+  font-size: 170%;
+  font-weight: 600;
+}
+
+.light-subtitle a {
+  margin-left: 20px;
+  align-items: center;
+  font-size: 150%;
+  font-weight: 500;
+  text-decoration: underline #d81b60;
+  color:currentColor;
+}
+.light-subtitle dt {
+  margin-top: 10px;
+
+}
+.light-subtitle p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  align-items: center;
+  font-size: 130%;
+  font-weight: 400;
 }
