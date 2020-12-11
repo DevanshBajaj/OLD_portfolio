@@ -510,7 +510,15 @@ a.sidebar-nav-item:focus {
 }
 .light-subtitle p {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  align-items: center;
+  font-size: 130%;
+  font-weight: 400;
+}
+.light-subtitle p1 {
+  margin-top: 10px;
+  padding-bottom: 30px;
   margin-left: 20px;
   align-items: center;
   font-size: 130%;
