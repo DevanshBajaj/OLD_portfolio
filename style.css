@@ -93,6 +93,7 @@ h3 {
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
+    transform: translate3d(0,0,0);
     top: 0;
     left: 0;
     bottom: 0;
